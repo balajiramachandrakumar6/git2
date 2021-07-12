@@ -17,6 +17,10 @@ do
   then
     yum install httpd -y
     service httpd start
+  elif (( "$aa" == 18 ));
+  then
+    B=`df -hT`
+    echo "$B"
   else
     echo " there is nothing "
     echo " nothing "
