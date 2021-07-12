@@ -21,7 +21,6 @@ do
   then
     B=`df -hT`
     echo "$B"
-    echo " ------------------------------------"
   else
     echo " there is nothing "
     echo " nothing "
