@@ -13,6 +13,8 @@ do
     cd /opt/git
     touch om om1
     echo " directory and file created as category "
+    continue
+    echo " hi "
   elif [ "$aa" -eq 11 ];
   then
     yum install httpd -y
