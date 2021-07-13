@@ -27,5 +27,7 @@ do
   else
     echo " there is nothing "
     echo " nothing "
+    echo " nothing "
+    
   fi
 done
